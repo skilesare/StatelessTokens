@@ -1,0 +1,13 @@
+{
+  "name": "",
+  "version": "",
+  "scripts": {
+    "coffee": "coffee --compile --output ./test/ ./testcoffee",
+    "coffeetree": "coffee --compile --output ./src/ ./srccoffee",
+    "testtruffle": "truffle test",
+    "retest": "npm run coffee && npm run coffeetree && npm run testtruffle"
+  },
+  "dependencies": {
+    "web3": "^1.0.0-beta.36"
+  }
+}
